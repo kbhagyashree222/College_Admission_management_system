@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "445075535435",
+    "project_id": "pune-ffa4f",
+    "storage_bucket": "pune-ffa4f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:445075535435:android:d19e5d4f097d0951607fce",
+        "android_client_info": {
+          "package_name": "com.example.demo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "445075535435-9vtf86re0bvsvinb2j1cgbqgm6uhqa0l.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBjTckxLwQIkQAtCfGJd1ygLh5X3AotJ6s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "445075535435-9vtf86re0bvsvinb2j1cgbqgm6uhqa0l.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

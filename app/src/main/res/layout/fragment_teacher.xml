@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".teacher">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt1"
+            android:text="Teacher's Portal"
+            android:textStyle="bold"
+            android:textSize="50dp"
+            android:layout_marginTop="20dp"
+            android:layout_centerHorizontal="true">
+
+        </TextView>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Teachers Name"
+            android:textSize="20dp"
+            android:layout_below="@id/txt1"
+            android:layout_marginTop="50dp"
+            android:layout_centerInParent="true"
+            android:id="@+id/tname">
+
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Stream"
+            android:textSize="20dp"
+            android:layout_below="@id/tname"
+            android:layout_centerInParent="true"
+            android:id="@+id/tstream">
+
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Designation"
+            android:textSize="20dp"
+            android:layout_below="@id/tstream"
+            android:layout_centerInParent="true"
+            android:id="@+id/tdesig">
+
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:hint="Enter Education"
+            android:textSize="20dp"
+            android:layout_below="@id/tdesig"
+            android:layout_centerInParent="true"
+            android:id="@+id/tedu">
+
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="40dp"
+            android:hint="About"
+            android:textSize="20dp"
+            android:layout_below="@id/tedu"
+            android:layout_centerInParent="true"
+            android:id="@+id/tabt">
+
+        </EditText>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addt"
+            android:layout_below="@id/tabt"
+            android:layout_centerInParent="true"
+            android:text="Add Teacher"
+            android:textSize="20dp">
+
+        </Button>
+
+    </RelativeLayout>
+
+</FrameLayout>

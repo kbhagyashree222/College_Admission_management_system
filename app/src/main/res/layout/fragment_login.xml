@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".login">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/txt1"
+            android:text="Welcome To Vidya Pratishthans Institute of Information and Technology,Baramati"
+            android:textSize="30dp"
+            android:layout_marginTop="50dp"
+            android:gravity="center">
+
+        </TextView>
+       <EditText
+           android:layout_width="350dp"
+           android:layout_height="wrap_content"
+           android:id="@+id/email"
+           android:layout_centerInParent="true"
+           android:hint="Enter Email"
+           android:textSize="20dp">
+
+       </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pass"
+            android:layout_below="@id/email"
+            android:layout_centerInParent="true"
+            android:hint="Enter Pass"
+            android:textSize="20dp">
+
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/role"
+            android:layout_below="@id/pass"
+            android:hint="Enter role"
+            android:textSize="20dp"
+            android:layout_centerInParent="true">
+
+        </EditText>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/sub"
+            android:layout_below="@id/role"
+            android:layout_centerInParent="true"
+            android:text="Submit"
+            android:textSize="20dp">
+
+        </Button>
+
+    </RelativeLayout>
+
+</FrameLayout>

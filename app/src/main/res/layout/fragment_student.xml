@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Student">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+
+        <TextView
+            android:id="@+id/txt1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="30dp"
+            android:gravity="center"
+            android:text="Welcome To Student Portal"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <EditText
+            android:id="@+id/firstn"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt1"
+            android:layout_marginTop="20dp"
+            android:layout_centerInParent="true"
+            android:hint="Full Name"
+            android:textSize="20dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/cet"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/firstn"
+            android:layout_centerInParent="true"
+            android:hint="Cet Roll No."
+            android:textSize="20dp">
+
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/marks"
+            android:layout_below="@id/cet"
+            android:hint="Cet Percentile"
+            android:layout_centerInParent="true"
+            android:textSize="20dp">
+
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/gradclg"
+            android:layout_below="@id/marks"
+            android:hint="Graduation College"
+            android:layout_centerInParent="true"
+            android:textSize="20dp">
+
+        </EditText>
+
+        <EditText
+            android:id="@+id/gradm"
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gradclg"
+            android:layout_centerInParent="true"
+            android:hint="Graduation Percentage"
+            android:textSize="20dp">
+
+
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/pnr"
+            android:layout_below="@id/gradm"
+            android:hint="Graduation Pnr"
+            android:layout_centerInParent="true"
+            android:textSize="20dp">
+
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addre"
+            android:layout_below="@id/pnr"
+            android:hint="Current Address"
+            android:layout_centerInParent="true"
+            android:textSize="20dp">
+
+        </EditText>
+        <EditText
+            android:layout_width="350dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/mobi"
+            android:layout_below="@id/addre"
+            android:hint="Mobile Number"
+            android:layout_centerInParent="true"
+
+            android:textSize="20dp">
+
+        </EditText>
+        <Button
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/register"
+            android:layout_below="@id/mobi"
+            android:text="Apply"
+            android:gravity="center"
+            android:layout_centerInParent="true">
+
+        </Button>
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>

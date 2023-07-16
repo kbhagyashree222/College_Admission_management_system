@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".clerks_dashboard">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/white">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/heading"
+            android:text="Clerks Portal"
+            android:gravity="center"
+            android:layout_marginLeft="100dp"
+            android:textStyle="bold"
+            android:layout_marginTop="20dp"
+            android:textSize="30dp">
+
+        </TextView>
+
+        <Button
+            android:id="@+id/faculty"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/heading"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="30dp"
+            android:gravity="center"
+            android:text="Add Faculty"
+            android:textSize="20dp">
+
+        </Button>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/student"
+            android:layout_below="@id/faculty"
+            android:layout_centerInParent="true"
+            android:text="ADD STUDENT"
+            android:textSize="20dp"
+            android:layout_marginTop="20dp">
+
+        </Button>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/notice"
+            android:text="Notice"
+            android:textSize="20dp"
+            android:layout_below="@id/student"
+            android:layout_centerInParent="true"
+            android:layout_marginTop="20dp">
+
+        </Button>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/faculty_disp"
+            android:layout_below="@id/notice"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:text="Faculty List"
+            android:layout_marginTop="20dp">
+
+        </Button>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/student_disp"
+            android:layout_below="@id/faculty_disp"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:text="Student List"
+            android:layout_marginTop="20dp">
+
+        </Button>
+        <Button
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/notice_disp"
+            android:layout_below="@id/student_disp"
+            android:textSize="20dp"
+            android:layout_centerInParent="true"
+            android:text="Notice Board"
+            android:layout_marginTop="20dp">
+
+        </Button>
+
+
+
+
+
+    </RelativeLayout>
+
+</FrameLayout>
